@@ -21,6 +21,7 @@
   </project>
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
+  <project path="system/core" name="Tesla-M/android_system_core" remote="github" revision="6.0" />
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
   <project path="platform_manifest" name="Tesl-M/platform_manifest" remote="github" revision="6.0" />
   <!-- Tesla Repos End -->
@@ -113,7 +114,6 @@
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="mm6.0" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="mm6.0" />
   <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
