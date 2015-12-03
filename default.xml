@@ -23,6 +23,7 @@
   <project path="bionic" name="Tesla-M/android_bionic" remote="github" revision="6.0" />
   <project path="external/guava" name="Tesla-M/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="6.0" />
   <project path="external/sepolicy" name="Tesla-M/android_external_sepolicy" remote="github" revision="6.0" />
+  <project path="frameworks/av" name="Tesla-M/frameworks_av" remote="github" revision="6.0" />
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
@@ -54,7 +55,6 @@
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="mm6.0" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="mm6.0" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="mm6.0" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0" />
