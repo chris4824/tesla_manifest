@@ -21,6 +21,7 @@
   </project>
   <project path="external/guava" name="Tesla-M/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="6.0" />
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
+  <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="system/core" name="Tesla-M/android_system_core" remote="github" revision="6.0" />
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
@@ -421,7 +422,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
