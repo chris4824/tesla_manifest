@@ -23,6 +23,7 @@
   <project path="bionic" name="Tesla-M/android_bionic" remote="github" revision="6.0" />
   <project path="external/guava" name="Tesla-M/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="6.0" />
   <project path="external/sepolicy" name="Tesla-M/android_external_sepolicy" remote="github" revision="6.0" />
+  <project path="external/v8" name="Tesla-M/external_v8" groups="pdk" remote="github" revision="6.0" />
   <project path="frameworks/av" name="Tesla-M/frameworks_av" remote="github" revision="6.0" />
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
@@ -385,7 +386,6 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
