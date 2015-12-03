@@ -21,6 +21,7 @@
   </project>
   <project path="art" name="Tesla-M/android_art" remote="github" revision="6.0"  />
   <project path="bionic" name="Tesla-M/android_bionic" remote="github" revision="6.0" />
+  <project path="external/icu" name="Tesla-M/external_icu" groups="pdk" remote="github" revision="6.0" />
   <project path="external/guava" name="Tesla-M/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="6.0" />
   <project path="external/sepolicy" name="Tesla-M/android_external_sepolicy" remote="github" revision="6.0" />
   <project path="external/v8" name="Tesla-M/external_v8" groups="pdk" remote="github" revision="6.0" />
