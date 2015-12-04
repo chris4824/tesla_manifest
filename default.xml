@@ -31,7 +31,7 @@
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="system/core" name="Tesla-M/android_system_core" remote="github" revision="6.0" />
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
-  <project path="platform_manifest" name="Tesl-M/platform_manifest" remote="github" revision="6.0" />
+  <project path="platform_manifest" name="Tesla-M/platform_manifest" remote="github" revision="6.0" />
   <!-- Tesla Repos End -->
 
   <!-- Slim Repos Start -->
