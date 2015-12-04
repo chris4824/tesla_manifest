@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
 
   <remote  name="github"
            fetch="git://github.com/"
@@ -10,10 +12,11 @@
   <remote name="bb"
           fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-6.0.0_r5"
+  <default revision="refs/tags/android-6.0.0_r26"
            remote="aosp"
+           sync-c="true" 
+           sync-f="true" 
            sync-j="4" />
-
 
   <!-- Tesla Repos Start -->
   <project path="build" name="Tesla-M/android_build" remote="github" revision="6.0" >
