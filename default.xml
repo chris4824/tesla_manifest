@@ -6,8 +6,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch="git://github.com/"
-           review="https://review.slimroms.org/"/>
+           fetch="https://github.com/" />
 
   <remote name="bb"
           fetch="https://bitbucket.org/" />
