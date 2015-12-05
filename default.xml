@@ -31,6 +31,7 @@
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
+  <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
   <project path="system/core" name="Tesla-M/android_system_core" remote="github" revision="6.0" />
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
   <project path="platform_manifest" name="Tesla-M/platform_manifest" remote="github" revision="6.0" />
