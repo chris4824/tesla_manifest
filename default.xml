@@ -30,7 +30,7 @@
   <project path="frameworks/av" name="Tesla-M/frameworks_av" remote="github" revision="6.0" />
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
-  <project path="packages/apps/PerformanceControl" name="Tesla-M/packages_apps_PerformanceControl" remote="omnirom" revision="6.0" />
+  <project path="packages/apps/PerformanceControl" name="Tesla-M/packages_apps_PerformanceControl" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
   <project path="system/core" name="Tesla-M/android_system_core" remote="github" revision="6.0" />
