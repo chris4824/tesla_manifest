@@ -32,6 +32,7 @@
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
+  <project path="packages/inputmethods/LatinIME" name="Tesla-M//packages_inputmethods_LatinIME" remote="github" revision="6.0" />
   <project path="system/core" name="Tesla-M/android_system_core" remote="github" revision="6.0" />
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
   <project path="platform_manifest" name="Tesla-M/platform_manifest" remote="github" revision="6.0" />
@@ -112,7 +113,6 @@
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" remote="github" revision="mm6.0" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="mm6.0" />
-  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="mm6.0" />
