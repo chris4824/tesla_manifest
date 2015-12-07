@@ -24,13 +24,15 @@
   <project path="art" name="Tesla-M/android_art" remote="github" revision="6.0"  />
   <project path="bionic" name="Tesla-M/android_bionic" remote="github" revision="6.0" />
   <project path="external/icu" name="Tesla-M/external_icu" groups="pdk" remote="github" revision="6.0" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" /> 
   <project path="external/guava" name="Tesla-M/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="6.0" />
   <project path="external/sepolicy" name="Tesla-M/android_external_sepolicy" remote="github" revision="6.0" />
   <project path="external/v8" name="Tesla-M/external_v8" groups="pdk" remote="github" revision="6.0" />
   <project path="frameworks/av" name="Tesla-M/frameworks_av" remote="github" revision="6.0" />
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
-  <project path="packages/apps/Bluetooth" name="Tesla-M/packages_apps_Bluetooth" remote="github" revision="6.0" />  
+  <project path="packages/apps/Bluetooth" name="Tesla-M/packages_apps_Bluetooth" remote="github" revision="6.0" />
+  <project path="packages/apps/LockClock" name="Tesla-M/packages_apps_LockClock" remote="github" revision="6.0" /> 
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
   <project path="packages/inputmethods/LatinIME" name="Tesla-M//packages_inputmethods_LatinIME" remote="github" revision="6.0" />
