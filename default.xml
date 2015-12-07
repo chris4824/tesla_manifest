@@ -30,6 +30,7 @@
   <project path="frameworks/av" name="Tesla-M/frameworks_av" remote="github" revision="6.0" />
   <project path="frameworks/base" name="Tesla-M/frameworks_base" remote="github" revision="6.0" />
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
+  <project path="packages/apps/Bluetooth" name="Tesla-M/packages_apps_Bluetooth" remote="github" revision="6.0" />  
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
   <project path="packages/inputmethods/LatinIME" name="Tesla-M//packages_inputmethods_LatinIME" remote="github" revision="6.0" />
@@ -94,7 +95,6 @@
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="mm6.0" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="mm6.0" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0" />
