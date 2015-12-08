@@ -33,6 +33,7 @@
   <project path="frameworks/support" name="Tesla-M/frameworks_support" remote="github" revision="6.0" />
   <project path="packages/apps/Bluetooth" name="Tesla-M/packages_apps_Bluetooth" remote="github" revision="6.0" />
   <project path="packages/apps/LockClock" name="Tesla-M/packages_apps_LockClock" remote="github" revision="6.0" /> 
+  <project path="packages/apps/OmniSwitch" name="Tesla-M/android_packages_apps_OmniSwitch" remote="github" revision="6.0" />
   <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="6.0" />
   <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
   <project path="packages/inputmethods/LatinIME" name="Tesla-M/packages_inputmethods_LatinIME" remote="github" revision="6.0" />
