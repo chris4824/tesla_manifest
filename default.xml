@@ -288,7 +288,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" remote="aospb" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="aospb" />
+  <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
@@ -314,7 +314,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aospb" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-13.0" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -335,34 +335,35 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aospb" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospb" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aospb" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospb" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
-  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aospb" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aospb" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
-  <project path="hardware/ril" name="hardware_ril" remote="aospb" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-13.0" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-13.0-caf" />
   <project path="libcore" name="libcore" remote="aospb" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tm" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aospb" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aospb" />
