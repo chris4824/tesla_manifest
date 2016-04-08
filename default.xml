@@ -486,7 +486,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="tm" />
+  <project path="manifest" name="chris4824/tesla_manifest" remote="github" revision="testing" />
 
   <!-- New Additions for tesla -->
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
@@ -516,6 +516,6 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
-
+  <project path=".repo/local_manifests" name="local_manifest" remote="manifest" revision="tesla" />
 
 </manifest>
