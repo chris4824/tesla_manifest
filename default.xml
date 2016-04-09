@@ -6,6 +6,9 @@
   <remote name="tipsy-unleashed"
           fetch="https://github.com/tipsy-unleashed/" />
 
+  <remote name="tesla-unleashed"
+          fetch="https://github.com/tesla-unleashed/" />
+
   <remote name="s4-unified"
           fetch="https://github.com/s4-unified/" />
 
