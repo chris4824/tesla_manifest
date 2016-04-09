@@ -523,7 +523,7 @@
   <project path=".repo/local_manifests" name="local_manifest" remote="manifest" revision="tesla" />
 
   <!-- My stuff -->
-  <project path="build" name="tipsy_build" remote="tesla-unleashed" revision="mm6.0" >
+  <project path="build" name="android_build" remote="tesla-unleashed" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tesla-unleashed" revision="mm6.0" />
