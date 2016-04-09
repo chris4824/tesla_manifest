@@ -3,6 +3,12 @@
   <remote  name="manifest"
            fetch="file:///home/chris/android/github_trackers" />
 
+  <remote name="tipsy-unleashed"
+          fetch="https://github.com/tipsy-unleashed/" />
+
+  <remote name="s4-unified"
+          fetch="https://github.com/s4-unified/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -25,9 +31,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="tm" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="tm"  />
   <project path="bionic" name="bionic" remote="tm" />
@@ -517,5 +520,13 @@
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
   <project path=".repo/local_manifests" name="local_manifest" remote="manifest" revision="tesla" />
+
+  <!-- My stuff -->
+  <project path="build" name="tipsy_build" remote="tesla-unleashed" revision="mm6.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tesla-unleashed" revision="mm6.0" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="s4-unified" revision="mm6.0" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="s4-unified" revision="aosp-6.0-test" />
 
 </manifest>
