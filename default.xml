@@ -110,6 +110,11 @@
    <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <!-- DragonTC toolchains -->
+  <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="ExistanceVIP/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />  
+  <!-- End DragonTC -->
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="AOSPB/bootable_recovery" remote="github" revision="mm6.0"/>
   <project path="developers/build" name="platform/developers/build" />
