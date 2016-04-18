@@ -550,5 +550,6 @@
 
   <!-- My stuff -->
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="s4-unified" revision="aosp-6.0-test" />
+  <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tesla" />
 
 </manifest>
