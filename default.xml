@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="manifest"
-           fetch="file:///home/chris/android/github_trackers" />
+           fetch="/home/cbris/Android/Repos" />
 
   <remote name="tipsy-unleashed"
           fetch="https://github.com/tipsy-unleashed/" />
