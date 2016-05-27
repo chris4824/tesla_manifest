@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="manifest"
-           fetch="file:///home/chris4824/Android/local_manifest" />
+           fetch="file:///home/chris4824/Android" />
 
   <remote name="tipsy-unleashed"
           fetch="https://github.com/tipsy-unleashed/" />
